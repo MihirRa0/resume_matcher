@@ -1,0 +1,30 @@
+smart_resume_matcher/
+├── app/
+│   ├── __init__.py
+│   ├── core/
+│   │   └── __init__.py
+│   ├── db/
+│   │   └── __init__.py
+│   ├── models/
+│   │   └── __init__.py
+│   ├── schemas/
+│   │   └── __init__.py
+│   ├── services/
+│   │   └── __init__.py
+│   ├── routers/
+│   │   └── __init__.py
+│   ├── utils/
+│   │   └── __init__.py
+│   └── main.py
+├── .env
+├── .gitignore
+└── requirements.txt
+
+
+env\Scripts\activate
+py -m venv env
+pip install -r requirements.txt
+
+learn the use of alembic
+
+ 

@@ -1,0 +1,26 @@
+# FastAPI framework and server
+fastapi
+uvicorn[standard]
+
+# Database (PostgreSQL ORM and driver)
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Data validation and settings management
+pydantic[email]
+pydantic-settings
+
+# Security (JWT and password hashing)
+python-jose[cryptography]
+passlib[bcrypt]
+
+# For handling file uploads (resumes, JDs)
+python-multipart
+
+# Google Gemini AI SDK
+google-generativeai
+
+# For parsing file content
+python-docx
+pypdf
