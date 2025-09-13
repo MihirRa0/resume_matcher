@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routers import auth, analysis # <-- Import the new router
+from .routers import auth, analysis # routers import must hai
 
 app = FastAPI(
     title="Smart Resume Matcher API",
@@ -8,8 +8,7 @@ app = FastAPI(
 )
 
 app.include_router(auth.router)
-app.include_router(analysis.router) # <-- Add the new router to the app
-
+app.include_router(analysis.router) #router include kiya
 @app.get("/", tags=["Root"])
 def read_root():
     return {"message": "Welcome to the Smart Resume Matcher API!"}
