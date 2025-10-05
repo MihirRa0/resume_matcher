@@ -8,7 +8,7 @@ app = FastAPI(
 )
 
 app.include_router(auth.router)
-app.include_router(analysis.router) #router include kiya
+app.include_router(analysis.router) #router include KIYA
 @app.get("/", tags=["Root"])
 def read_root():
     return {"message": "Welcome to the Smart Resume Matcher API!"}
